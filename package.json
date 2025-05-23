@@ -9,6 +9,9 @@
     "dev": "nodemon src/app.js"
 
   },
+  "engines": {
+    "node": "22.14.0"  // Especifica la versión de Node.js
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
