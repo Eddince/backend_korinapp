@@ -7,7 +7,7 @@ const routes = require('./routes');
 app.use('/node', routes); // Ejemplo: http://localhost:3000/node/...
 
 // Iniciar servidor
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Servidor corriendo en http://localhost:${PORT}`);
 });
